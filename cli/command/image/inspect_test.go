@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"testing"
 
+	"github.com/docker/cli/cli/internal/test"
 	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/cli/internal/test"
 	"github.com/docker/docker/pkg/testutil"
 	"github.com/docker/docker/pkg/testutil/golden"
 	"github.com/stretchr/testify/assert"
